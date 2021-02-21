@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  withdrawal:
+    image: makcon/wezaam-withdrawal-service-qa:latest
+#    environment:
+#      - DB=mysql
+#      - DATABASE_URL=jdbc:mysql://localhost:3306/wezaam_withdrawals?createDatabaseIfNotExist=true
+#      - DATABASE_USER=root
+#      - DATABASE_PASSWORD=
+    ports:
+      - 7070:7070
