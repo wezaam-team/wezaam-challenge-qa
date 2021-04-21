@@ -23,9 +23,9 @@ How the withdrawal processing works:
 We expect from you to write automated tests with following acceptance criteria:
 
 - To be written on any language using any frameworks you are comfortable with
-- All business rules validation should be covered
+- All visible problems should be detected and covered by automation tests
 - Immediate withdrawal processing should be tested
-- As a plus we would like to see a possible solution how to test scheduled withdrawals to be executed in a future (e.q. next day)
+- We would like to see a possible solutions how to test scheduled withdrawals to be executed in a future (e.q. next day)
 - Also, we would like to know the ways to test failed flow. Withdrawal object has 2 error statuses:
     - `INTERNAL_ERROR` - in case of unexpected technical happened (e.q. 3rd party payments provider is unavailable)
     - `FAILED` - related to predictable issues with payment methods (e.q. the user's bank account is blocked)
