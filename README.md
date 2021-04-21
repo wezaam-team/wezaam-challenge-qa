@@ -19,6 +19,7 @@ How the withdrawal processing works:
 - Run the app using `docker-compose up`
 - The service will be running on port `7070`. There is swagger available by the address: `http://localhost:7070/swagger-ui.html`
 - The service is using embedded H2 database by default. If needed you can enable mysql (uncomment related lines in docker-compose)
+- Once complete invite `makcon` and `pbravowezaam`
 
 We expect from you to write automated tests with following acceptance criteria:
 
