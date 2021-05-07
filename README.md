@@ -1,4 +1,4 @@
-We are building service that allows users to withdrawal some amount using selected payment method (e.q. bank account) with the business rules:
+We are building service that allows users to withdrawal (the process that allows to transfer money from company to employee accounts) some amount using selected payment method (e.q. bank account) with the business rules:
 
 - We have a list of users (`/v1/users` endpoint)
 - A user has several payment methods
