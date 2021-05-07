@@ -30,4 +30,4 @@ We expect from you to write automated tests with following acceptance criteria:
 - Also, we would like to know the ways to test failed flow. Withdrawal object has 2 error statuses:
     - `INTERNAL_ERROR` - in case of unexpected technical happened (e.q. 3rd party payments provider is unavailable)
     - `FAILED` - related to predictable issues with payment methods (e.q. the user's bank account is blocked)
-- It would be good if we could easily run the tests (e.q. with docker-compose) and see a generated test report (e.q. Serenity framework report)
+- It would be good if we could easily run the tests (e.q. with docker-compose) and see a generated test report (e.q. Serenity framework report). Please provide an instructuion
