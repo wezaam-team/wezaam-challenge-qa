@@ -51,7 +51,7 @@ The purpose of this challenge is to evaluate your testing automation skills. The
 
 	# Description
 	
-	Visit Facebook page and validate the login view: https://www.facebook.com.
+	Visit Facebook page and validate the login view functionality: https://www.facebook.com.
 
 	# The challenge:
 	
